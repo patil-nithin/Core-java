@@ -1,8 +1,14 @@
-class MixerExecuter{
+class MixerExecuter {
 
-public static void main(String [] args){
+    public static void main(String[] arg) {
 
-boolean ref=Mixer.onoroff();
-System.out.println("the Mixer running status "+ref);
-}
+        boolean ref = Mixer.onoroff();
+        System.out.println("The Mixer is connected " + ref);
+
+        int speedRef = Mixer.increaseSpeed();
+        System.out.println("Mixer speed is " + speedRef);
+		
+        speedRef = Mixer.decreaseSpeed();
+        System.out.println("Mixer speed is " + speedRef);
+    }
 }

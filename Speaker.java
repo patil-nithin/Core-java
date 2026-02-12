@@ -1,16 +1,22 @@
 class Speaker{
 
-static boolean isConnected;
+    static boolean isConnected;
 
-   static boolean onoroff(){
-   if(isConnected==false){
-      isConnected=true;
-	  System.out.println("the Speaker is turned on...");
-	  }else if(isConnected==true){
-	          isConnected=false;
-	  System.out.println("the Speaker is turned off...");
+
+    static boolean onOrOff(){
+		
+		if(isConnected==false){
+			isConnected=true;
+			System.out.println("The speaker is turned on....");
+		}else{
+			isConnected=false;
+			System.out.println("The speaker is turned off....");
+		}
+		
+		
+		return isConnected;
+	}
+
+
+
 }
-return isConnected;
-}
-}
-	  
