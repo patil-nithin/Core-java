@@ -1,0 +1,19 @@
+class ShantalaSilks{
+
+public static void main(String [] args){
+
+String shopName="ShantalaSilks";
+String shopHead="mahadev";
+String shopAddress="RR Nagar";
+
+String shopStaff[]={ravi,kishor,raghu,vishnu};
+
+system.out.println("the shop name is:+" shopName);
+system.out.println("the head of the shop:+", shopHead);
+system.out.println("location of the shop:+",shopAddress);
+for(String staffMembers:shopStaff){
+system.out.println("staffMembers);
+}
+}
+}
+
