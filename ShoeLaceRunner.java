@@ -1,0 +1,387 @@
+
+class ShoeLaceRunner {
+    public static void main(String[] args) {
+        
+        // Default constructor
+        
+        ShoeLace s1 = new ShoeLace();
+        s1.material = "Cotton";
+        s1.color = "White";
+        s1.length = 120;
+        s1.shape = "Flat";
+        s1.agletMaterial = "Plastic";
+        s1.isElastic = false;
+        s1.pattern = "Solid";
+        s1.brand = "Nike";
+        s1.width = 8.0;
+        s1.price = 5.00;
+
+        ShoeLace s2 = new ShoeLace();
+        s2.material = "Polyester";
+        s2.color = "Black";
+        s2.length = 140;
+        s2.shape = "Round";
+        s2.agletMaterial = "Metal";
+        s2.isElastic = false;
+        s2.pattern = "Solid";
+        s2.brand = "Adidas";
+        s2.width = 4.0;
+        s2.price = 6.50;
+
+        ShoeLace s3 = new ShoeLace();
+        s3.material = "Nylon";
+        s3.color = "Neon Green";
+        s3.length = 100;
+        s3.shape = "Oval";
+        s3.agletMaterial = "Plastic";
+        s3.isElastic = true;
+        s3.pattern = "Speckled";
+        s3.brand = "Lock Laces";
+        s3.width = 3.5;
+        s3.price = 9.99;
+
+        ShoeLace s4 = new ShoeLace();
+        s4.material = "Leather";
+        s4.color = "Brown";
+        s4.length = 90;
+        s4.shape = "Square";
+        s4.agletMaterial = "None";
+        s4.isElastic = false;
+        s4.pattern = "Raw";
+        s4.brand = "Kiwi";
+        s4.width = 3.0;
+        s4.price = 7.00;
+
+        ShoeLace s5 = new ShoeLace();
+        s5.material = "Cotton";
+        s5.color = "Red";
+        s5.length = 130;
+        s5.shape = "Flat";
+        s5.agletMaterial = "Plastic";
+        s5.isElastic = false;
+        s5.pattern = "Checkerboard";
+        s5.brand = "Vans";
+        s5.width = 10.0;
+        s5.price = 4.50;
+
+        ShoeLace s6 = new ShoeLace();
+        s6.material = "Kevlar";
+        s6.color = "Yellow/Black";
+        s6.length = 160;
+        s6.shape = "Round";
+        s6.agletMaterial = "Metal";
+        s6.isElastic = false;
+        s6.pattern = "Braided";
+        s6.brand = "Ironlace";
+        s6.width = 4.5;
+        s6.price = 14.99;
+
+        ShoeLace s7 = new ShoeLace();
+        s7.material = "Silicone";
+        s7.color = "Multicolor";
+        s7.length = 10;
+        s7.shape = "Flat Band";
+        s7.agletMaterial = "None";
+        s7.isElastic = true;
+        s7.pattern = "Solid";
+        s7.brand = "Hickies";
+        s7.width = 6.0;
+        s7.price = 12.00;
+
+        ShoeLace s8 = new ShoeLace();
+        s8.material = "Polyester";
+        s8.color = "Reflective Silver";
+        s8.length = 110;
+        s8.shape = "Round";
+        s8.agletMaterial = "Plastic";
+        s8.isElastic = false;
+        s8.pattern = "Woven";
+        s8.brand = "New Balance";
+        s8.width = 3.5;
+        s8.price = 8.00;
+
+        ShoeLace s9 = new ShoeLace();
+        s9.material = "Waxed Cotton";
+        s9.color = "Navy Blue";
+        s9.length = 80;
+        s9.shape = "Round";
+        s9.agletMaterial = "Brass";
+        s9.isElastic = false;
+        s9.pattern = "Solid";
+        s9.brand = "Allen Edmonds";
+        s9.width = 2.5;
+        s9.price = 9.00;
+
+        ShoeLace s10 = new ShoeLace();
+        s10.material = "Cotton Blend";
+        s10.color = "Pink";
+        s10.length = 120;
+        s10.shape = "Flat";
+        s10.agletMaterial = "Plastic";
+        s10.isElastic = false;
+        s10.pattern = "Polka Dot";
+        s10.brand = "Converse";
+        s10.width = 8.0;
+        s10.price = 5.50;
+
+        ShoeLace s11 = new ShoeLace();
+        s11.material = "Paracord";
+        s11.color = "Camo";
+        s11.length = 180;
+        s11.shape = "Round";
+        s11.agletMaterial = "Heat Shrink";
+        s11.isElastic = false;
+        s11.pattern = "Camouflage";
+        s11.brand = "ToughLaces";
+        s11.width = 5.0;
+        s11.price = 11.00;
+
+        ShoeLace s12 = new ShoeLace();
+        s12.material = "Silk";
+        s12.color = "Champagne";
+        s12.length = 100;
+        s12.shape = "Ribbon";
+        s12.agletMaterial = "Metal";
+        s12.isElastic = false;
+        s12.pattern = "Glossy";
+        s12.brand = "Puma";
+        s12.width = 15.0;
+        s12.price = 10.00;
+
+        ShoeLace s13 = new ShoeLace();
+        s13.material = "Recycled PET";
+        s13.color = "Earth Green";
+        s13.length = 130;
+        s13.shape = "Flat";
+        s13.agletMaterial = "Cardboard";
+        s13.isElastic = false;
+        s13.pattern = "Solid";
+        s13.brand = "Timberland";
+        s13.width = 9.0;
+        s13.price = 6.00;
+
+        ShoeLace s14 = new ShoeLace();
+        s14.material = "Spandex";
+        s14.color = "Orange";
+        s14.length = 110;
+        s14.shape = "Round";
+        s14.agletMaterial = "Plastic";
+        s14.isElastic = true;
+        s14.pattern = "Solid";
+        s14.brand = "Xpand";
+        s14.width = 4.0;
+        s14.price = 8.50;
+
+        ShoeLace s15 = new ShoeLace();
+        s15.material = "Cotton";
+        s15.color = "Off-White";
+        s15.length = 160;
+        s15.shape = "Flat";
+        s15.agletMaterial = "Plastic";
+        s15.isElastic = false;
+        s15.pattern = "Printed Text";
+        s15.brand = "Off-White";
+        s15.width = 8.0;
+        s15.price = 25.00;
+
+        ShoeLace s16 = new ShoeLace();
+        s16.material = "Nylon";
+        s16.color = "Purple";
+        s16.length = 120;
+        s16.shape = "Oval";
+        s16.agletMaterial = "Plastic";
+        s16.isElastic = false;
+        s16.pattern = "Solid";
+        s16.brand = "Asics";
+        s16.width = 5.0;
+        s16.price = 4.00;
+
+        ShoeLace s17 = new ShoeLace();
+        s17.material = "Polyester";
+        s17.color = "Gold";
+        s17.length = 140;
+        s17.shape = "Flat";
+        s17.agletMaterial = "Gold Plated";
+        s17.isElastic = false;
+        s17.pattern = "Metallic";
+        s17.brand = "Mr. Lacy";
+        s17.width = 8.5;
+        s17.price = 15.00;
+
+        ShoeLace s18 = new ShoeLace();
+        s18.material = "Waxed Linen";
+        s18.color = "Burgundy";
+        s18.length = 75;
+        s18.shape = "Round";
+        s18.agletMaterial = "Copper";
+        s18.isElastic = false;
+        s18.pattern = "Solid";
+        s18.brand = "Dr. Martens";
+        s18.width = 3.0;
+        s18.price = 6.00;
+
+        ShoeLace s19 = new ShoeLace();
+        s19.material = "Cotton";
+        s19.color = "Grey";
+        s19.length = 150;
+        s19.shape = "Flat";
+        s19.agletMaterial = "Plastic";
+        s19.isElastic = false;
+        s19.pattern = "Striped";
+        s19.brand = "Skechers";
+        s19.width = 7.0;
+        s19.price = 3.50;
+
+        ShoeLace s20 = new ShoeLace();
+        s20.material = "Velvet";
+        s20.color = "Black";
+        s20.length = 120;
+        s20.shape = "Flat";
+        s20.agletMaterial = "Metal";
+        s20.isElastic = false;
+        s20.pattern = "Solid";
+        s20.brand = "Crep Protect";
+        s20.width = 12.0;
+        s20.price = 12.50;
+
+        ShoeLace s21 = new ShoeLace();
+        s21.material = "Polyester";
+        s21.color = "Neon Yellow";
+        s21.length = 130;
+        s21.shape = "Round";
+        s21.agletMaterial = "Plastic";
+        s21.isElastic = false;
+        s21.pattern = "Hexagon";
+        s21.brand = "Under Armour";
+        s21.width = 4.0;
+        s21.price = 7.50;
+
+        ShoeLace s22 = new ShoeLace();
+        s22.material = "Leather";
+        s22.color = "Tan";
+        s22.length = 100;
+        s22.shape = "Square";
+        s22.agletMaterial = "None";
+        s22.isElastic = false;
+        s22.pattern = "Raw";
+        s22.brand = "Sperry";
+        s22.width = 3.5;
+        s22.price = 8.00;
+
+        ShoeLace s23 = new ShoeLace();
+        s23.material = "Bungee Cord";
+        s23.color = "Blue";
+        s23.length = 110;
+        s23.shape = "Round";
+        s23.agletMaterial = "Toggle Lock";
+        s23.isElastic = true;
+        s23.pattern = "Solid";
+        s23.brand = "Salomon";
+        s23.width = 3.0;
+        s23.price = 10.00;
+
+        ShoeLace s24 = new ShoeLace();
+        s24.material = "Cotton";
+        s24.color = "Red/Blue";
+        s24.length = 140;
+        s24.shape = "Flat";
+        s24.agletMaterial = "Plastic";
+        s24.isElastic = false;
+        s24.pattern = "Two-Tone";
+        s24.brand = "Jordan";
+        s24.width = 8.0;
+        s24.price = 6.00;
+
+        ShoeLace s25 = new ShoeLace();
+        s25.material = "Glow in the Dark Thread";
+        s25.color = "White (Glows Green)";
+        s25.length = 120;
+        s25.shape = "Flat";
+        s25.agletMaterial = "Clear Plastic";
+        s25.isElastic = false;
+        s25.pattern = "Solid";
+        s25.brand = "LaceLab";
+        s25.width = 8.0;
+        s25.price = 9.50;
+
+        System.out.println("ShoeLace 1: " + s1.brand + " | " + s1.color + " | " + s1.shape + " | Length: " + s1.length + "cm");
+        System.out.println("ShoeLace 2: " + s2.brand + " | " + s2.color + " | " + s2.shape + " | Length: " + s2.length + "cm");
+        System.out.println("ShoeLace 3: " + s3.brand + " | " + s3.color + " | " + s3.shape + " | Length: " + s3.length + "cm");
+        System.out.println("ShoeLace 4: " + s4.brand + " | " + s4.color + " | " + s4.shape + " | Length: " + s4.length + "cm");
+        System.out.println("ShoeLace 5: " + s5.brand + " | " + s5.color + " | " + s5.shape + " | Length: " + s5.length + "cm");
+        System.out.println("ShoeLace 6: " + s6.brand + " | " + s6.color + " | " + s6.shape + " | Length: " + s6.length + "cm");
+        System.out.println("ShoeLace 7: " + s7.brand + " | " + s7.color + " | " + s7.shape + " | Length: " + s7.length + "cm");
+        System.out.println("ShoeLace 8: " + s8.brand + " | " + s8.color + " | " + s8.shape + " | Length: " + s8.length + "cm");
+        System.out.println("ShoeLace 9: " + s9.brand + " | " + s9.color + " | " + s9.shape + " | Length: " + s9.length + "cm");
+        System.out.println("ShoeLace 10: " + s10.brand + " | " + s10.color + " | " + s10.shape + " | Length: " + s10.length + "cm");
+        System.out.println("ShoeLace 11: " + s11.brand + " | " + s11.color + " | " + s11.shape + " | Length: " + s11.length + "cm");
+        System.out.println("ShoeLace 12: " + s12.brand + " | " + s12.color + " | " + s12.shape + " | Length: " + s12.length + "cm");
+        System.out.println("ShoeLace 13: " + s13.brand + " | " + s13.color + " | " + s13.shape + " | Length: " + s13.length + "cm");
+        System.out.println("ShoeLace 14: " + s14.brand + " | " + s14.color + " | " + s14.shape + " | Length: " + s14.length + "cm");
+        System.out.println("ShoeLace 15: " + s15.brand + " | " + s15.color + " | " + s15.shape + " | Length: " + s15.length + "cm");
+        System.out.println("ShoeLace 16: " + s16.brand + " | " + s16.color + " | " + s16.shape + " | Length: " + s16.length + "cm");
+        System.out.println("ShoeLace 17: " + s17.brand + " | " + s17.color + " | " + s17.shape + " | Length: " + s17.length + "cm");
+        System.out.println("ShoeLace 18: " + s18.brand + " | " + s18.color + " | " + s18.shape + " | Length: " + s18.length + "cm");
+        System.out.println("ShoeLace 19: " + s19.brand + " | " + s19.color + " | " + s19.shape + " | Length: " + s19.length + "cm");
+        System.out.println("ShoeLace 20: " + s20.brand + " | " + s20.color + " | " + s20.shape + " | Length: " + s20.length + "cm");
+        System.out.println("ShoeLace 21: " + s21.brand + " | " + s21.color + " | " + s21.shape + " | Length: " + s21.length + "cm");
+        System.out.println("ShoeLace 22: " + s22.brand + " | " + s22.color + " | " + s22.shape + " | Length: " + s22.length + "cm");
+        System.out.println("ShoeLace 23: " + s23.brand + " | " + s23.color + " | " + s23.shape + " | Length: " + s23.length + "cm");
+        System.out.println("ShoeLace 24: " + s24.brand + " | " + s24.color + " | " + s24.shape + " | Length: " + s24.length + "cm");
+        System.out.println("ShoeLace 25: " + s25.brand + " | " + s25.color + " | " + s25.shape + " | Length: " + s25.length + "cm");
+
+        // Parameterized constructor 
+        
+        ShoeLace p1 = new ShoeLace("Cotton", "Teal", 110, "Flat", "Plastic", false, "Solid", "Vans", 8.0, 4.50);
+        ShoeLace p2 = new ShoeLace("Polyester", "Silver", 130, "Oval", "Metal", false, "Sparkle", "Mr. Lacy", 5.0, 8.00);
+        ShoeLace p3 = new ShoeLace("Nylon", "Neon Orange", 120, "Round", "Plastic", true, "Solid", "Lock Laces", 3.5, 9.99);
+        ShoeLace p4 = new ShoeLace("Waxed Cotton", "Black", 80, "Round", "Brass", false, "Solid", "Clarks", 2.5, 6.50);
+        ShoeLace p5 = new ShoeLace("Leather", "Tan", 100, "Square", "None", false, "Raw", "Sperry", 3.0, 8.50);
+        ShoeLace p6 = new ShoeLace("Kevlar", "Brown", 150, "Round", "Steel", false, "Braided", "Ironlace", 4.5, 15.00);
+        ShoeLace p7 = new ShoeLace("Cotton", "Yellow", 140, "Flat", "Plastic", false, "Solid", "Converse", 8.0, 5.00);
+        ShoeLace p8 = new ShoeLace("Polyester", "Red/White", 120, "Round", "Plastic", false, "Striped", "Nike", 4.0, 6.00);
+        ShoeLace p9 = new ShoeLace("Silicone", "White", 10, "Flat Band", "None", true, "Solid", "Hickies", 6.0, 11.00);
+        ShoeLace p10 = new ShoeLace("Recycled PET", "Blue", 110, "Flat", "Cardboard", false, "Solid", "Allbirds", 9.0, 5.50);
+        ShoeLace p11 = new ShoeLace("Spandex", "Grey", 100, "Round", "Toggle", true, "Solid", "Xpand", 4.0, 8.50);
+        ShoeLace p12 = new ShoeLace("Silk", "Black", 120, "Ribbon", "Metal", false, "Glossy", "Puma", 15.0, 10.00);
+        ShoeLace p13 = new ShoeLace("Paracord", "Desert Camo", 160, "Round", "Heat Shrink", false, "Camouflage", "ToughLaces", 5.0, 12.00);
+        ShoeLace p14 = new ShoeLace("Cotton", "Mint Green", 130, "Flat", "Plastic", false, "Solid", "Adidas", 8.0, 4.00);
+        ShoeLace p15 = new ShoeLace("Polyester", "Reflective Black", 110, "Oval", "Plastic", false, "Woven", "Asics", 5.0, 7.50);
+        ShoeLace p16 = new ShoeLace("Waxed Linen", "Dark Brown", 90, "Round", "Copper", false, "Solid", "Red Wing", 3.0, 8.00);
+        ShoeLace p17 = new ShoeLace("Velvet", "Burgundy", 120, "Flat", "Gold Metal", false, "Solid", "Crep Protect", 12.0, 14.00);
+        ShoeLace p18 = new ShoeLace("Cotton", "Rainbow", 140, "Flat", "Plastic", false, "Gradient", "Vans", 10.0, 6.00);
+        ShoeLace p19 = new ShoeLace("Polyester", "Gold", 120, "Flat", "Metal", false, "Metallic", "LaceLab", 8.0, 12.00);
+        ShoeLace p20 = new ShoeLace("Leather", "Black", 110, "Square", "None", false, "Raw", "Timberland", 3.5, 9.00);
+        ShoeLace p21 = new ShoeLace("Bungee Cord", "Neon Pink", 100, "Round", "Toggle Lock", true, "Solid", "Salomon", 3.0, 10.50);
+        ShoeLace p22 = new ShoeLace("Glow Thread", "Blue Glow", 120, "Flat", "Clear Plastic", false, "Solid", "LaceLab", 8.0, 9.50);
+        ShoeLace p23 = new ShoeLace("Cotton", "Black/White", 150, "Flat", "Plastic", false, "Houndstooth", "Skechers", 7.0, 4.50);
+        ShoeLace p24 = new ShoeLace("Nylon", "Crimson", 130, "Oval", "Plastic", false, "Solid", "Under Armour", 4.0, 5.00);
+        ShoeLace p25 = new ShoeLace("Cotton Blend", "Peach", 120, "Flat", "Plastic", false, "Solid", "Reebok", 8.0, 4.00);
+
+        System.out.println("Param ShoeLace 1: " + p1.brand + " | " + p1.color + " | " + p1.shape + " | Length: " + p1.length + "cm");
+        System.out.println("Param ShoeLace 2: " + p2.brand + " | " + p2.color + " | " + p2.shape + " | Length: " + p2.length + "cm");
+        System.out.println("Param ShoeLace 3: " + p3.brand + " | " + p3.color + " | " + p3.shape + " | Length: " + p3.length + "cm");
+        System.out.println("Param ShoeLace 4: " + p4.brand + " | " + p4.color + " | " + p4.shape + " | Length: " + p4.length + "cm");
+        System.out.println("Param ShoeLace 5: " + p5.brand + " | " + p5.color + " | " + p5.shape + " | Length: " + p5.length + "cm");
+        System.out.println("Param ShoeLace 6: " + p6.brand + " | " + p6.color + " | " + p6.shape + " | Length: " + p6.length + "cm");
+        System.out.println("Param ShoeLace 7: " + p7.brand + " | " + p7.color + " | " + p7.shape + " | Length: " + p7.length + "cm");
+        System.out.println("Param ShoeLace 8: " + p8.brand + " | " + p8.color + " | " + p8.shape + " | Length: " + p8.length + "cm");
+        System.out.println("Param ShoeLace 9: " + p9.brand + " | " + p9.color + " | " + p9.shape + " | Length: " + p9.length + "cm");
+        System.out.println("Param ShoeLace 10: " + p10.brand + " | " + p10.color + " | " + p10.shape + " | Length: " + p10.length + "cm");
+        System.out.println("Param ShoeLace 11: " + p11.brand + " | " + p11.color + " | " + p11.shape + " | Length: " + p11.length + "cm");
+        System.out.println("Param ShoeLace 12: " + p12.brand + " | " + p12.color + " | " + p12.shape + " | Length: " + p12.length + "cm");
+        System.out.println("Param ShoeLace 13: " + p13.brand + " | " + p13.color + " | " + p13.shape + " | Length: " + p13.length + "cm");
+        System.out.println("Param ShoeLace 14: " + p14.brand + " | " + p14.color + " | " + p14.shape + " | Length: " + p14.length + "cm");
+        System.out.println("Param ShoeLace 15: " + p15.brand + " | " + p15.color + " | " + p15.shape + " | Length: " + p15.length + "cm");
+        System.out.println("Param ShoeLace 16: " + p16.brand + " | " + p16.color + " | " + p16.shape + " | Length: " + p16.length + "cm");
+        System.out.println("Param ShoeLace 17: " + p17.brand + " | " + p17.color + " | " + p17.shape + " | Length: " + p17.length + "cm");
+        System.out.println("Param ShoeLace 18: " + p18.brand + " | " + p18.color + " | " + p18.shape + " | Length: " + p18.length + "cm");
+        System.out.println("Param ShoeLace 19: " + p19.brand + " | " + p19.color + " | " + p19.shape + " | Length: " + p19.length + "cm");
+        System.out.println("Param ShoeLace 20: " + p20.brand + " | " + p20.color + " | " + p20.shape + " | Length: " + p20.length + "cm");
+        System.out.println("Param ShoeLace 21: " + p21.brand + " | " + p21.color + " | " + p21.shape + " | Length: " + p21.length + "cm");
+        System.out.println("Param ShoeLace 22: " + p22.brand + " | " + p22.color + " | " + p22.shape + " | Length: " + p22.length + "cm");
+        System.out.println("Param ShoeLace 23: " + p23.brand + " | " + p23.color + " | " + p23.shape + " | Length: " + p23.length + "cm");
+        System.out.println("Param ShoeLace 24: " + p24.brand + " | " + p24.color + " | " + p24.shape + " | Length: " + p24.length + "cm");
+        System.out.println("Param ShoeLace 25: " + p25.brand + " | " + p25.color + " | " + p25.shape + " | Length: " + p25.length + "cm");
+    }
+}
