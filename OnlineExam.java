@@ -1,0 +1,2 @@
+class OnlineExam extends ExamService {
+}

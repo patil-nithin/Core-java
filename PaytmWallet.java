@@ -1,0 +1,2 @@
+class PaytmWallet extends WalletService {
+}

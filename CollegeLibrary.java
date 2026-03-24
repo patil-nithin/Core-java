@@ -1,0 +1,2 @@
+class CollegeLibrary extends LibraryService {
+}

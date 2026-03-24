@@ -1,0 +1,1 @@
+class NaukriApp extends JobPortal { }

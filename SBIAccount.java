@@ -1,0 +1,1 @@
+class SBIAccount extends BankService { }

@@ -1,0 +1,1 @@
+class SpotifyApp extends MusicService { }

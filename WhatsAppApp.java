@@ -1,0 +1,1 @@
+class WhatsAppApp extends MessagingService { }

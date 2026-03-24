@@ -1,0 +1,1 @@
+class UdemyCourse extends LearningPlatform { }

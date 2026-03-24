@@ -1,0 +1,5 @@
+class HospitalService {
+    void admitPatient() {
+        System.out.println("Patient admitted");
+    }
+}

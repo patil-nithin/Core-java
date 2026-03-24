@@ -1,0 +1,1 @@
+class OlaRide extends RideService { }

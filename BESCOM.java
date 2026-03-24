@@ -1,0 +1,1 @@
+class BESCOM extends ElectricityBoard { }
