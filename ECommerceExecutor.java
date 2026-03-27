@@ -27,6 +27,12 @@ public class ECommerceExecutor {
         eCommerce.addProduct("Fan");
         eCommerce.addProduct("Air Purifier");
         eCommerce.addProduct("Juicer");
-        eCommerce.getProducts();
+        eCommerce.getProductDetails();
+        int index = 7;
+        String productByIndex = eCommerce.getProductByIndex(index);
+        System.out.println("Product at index " + index + " is: " + productByIndex);
+        String productName = "Camera";
+        int productIndex = eCommerce.getIndexByProduct(productName);
+        System.out.println("Index of " + productName + " is: " + productIndex);
     }
 }

@@ -12,6 +12,12 @@ public class ArchitectExecutor {
         architect.addInteriorDesign("Rustic");
         architect.addInteriorDesign("Coastal");
         architect.addInteriorDesign("Mid Century Modern");
-        architect.getInteriorDesigns();
+        architect.getInteriorDesignDetails();
+        int index = 4;
+        String designByIndex = architect.getInteriorDesignByIndex(index);
+        System.out.println("Interior design at index " + index + " is: " + designByIndex);
+        String designName = "Industrial";
+        int designIndex = architect.getIndexByInteriorDesign(designName);
+        System.out.println("Index of " + designName + " is: " + designIndex);
     }
 }

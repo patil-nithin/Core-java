@@ -20,6 +20,12 @@ public class GoaExecutor {
         goa.addBeach("Bogmalo Beach");
         goa.addBeach("Chapora Beach");
         goa.addBeach("Querim Beach");
-        goa.getBeaches();
+        goa.getBeachDetails();
+        int index = 2;
+        String beachByIndex = goa.getBeachByIndex(index);
+        System.out.println("Beach at index " + index + " is: " + beachByIndex);
+        String beachName = "Vagator Beach";
+        int beachIndex = goa.getIndexByBeach(beachName);
+        System.out.println("Index of " + beachName + " is: " + beachIndex);
     }
 }

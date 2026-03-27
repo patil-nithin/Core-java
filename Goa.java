@@ -1,22 +1,44 @@
 public class Goa {
-    private String beachNames[] = new String[19];
+    public String beachNames[] = new String[19];
     int index;
 
     public boolean addBeach(String beach) {
-        boolean isBeach = false;
-        if (beach != null && !beach.isEmpty()) {
-            beachNames[index] = beach;
-            index++;
-            isBeach = true;
-        } else {
-            System.out.println(beach + " is invalid");
-        }
-        return isBeach;
+        boolean isAdded = false;
+        if (index < beachNames.length) {
+            if (beach != null && !beach.isEmpty()) {
+                beachNames[index++] = beach;
+                isAdded = true;
+            } else System.out.println(beach + " is invalid");
+        } else
+            System.out.println("beach index is full");
+        return isAdded;
     }
 
-    public void getBeaches() {
-        System.out.println(" Goa Beach Names ");
-        for (String beach : beachNames)
-           System.out.println(beach);
+    public void getBeachDetails() {
+        System.out.println("The beachs are : \n");
+        for (String item : beachNames)
+            if (item != null) System.out.println(item);
+    }
+
+    public String getBeachByIndex(int index) {
+        String beach = null;
+        if (index < beachNames.length)
+            beach = beachNames[index];
+        else
+            System.out.println("Invalid index value: " + index);
+        return beach;
+    }
+
+    public int getIndexByBeach(String beach) {
+        int idx = 0;
+        if (beach != null) {
+            for (String item : beachNames) {
+                if (item != null && item.equals(beach)) {
+                    return idx;
+                }
+                idx++;
+            }
+        } else System.out.println("beach name not found: " + beach);
+        return -1;
     }
 }

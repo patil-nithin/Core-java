@@ -18,6 +18,12 @@ public class TelevisionExecutor {
         television.addChannel("National Geographic");
         television.addChannel("Cartoon Network");
         television.addChannel("Pogo");
-        television.getChannels();
+        television.getChannelDetails();
+        int index = 6;
+        String channelByIndex = television.getChannelByIndex(index);
+        System.out.println("Channel at index " + index + " is: " + channelByIndex);
+        String channelName = "ESPN";
+        int channelIndex = television.getIndexByChannel(channelName);
+        System.out.println("Index of " + channelName + " is: " + channelIndex);
     }
 }

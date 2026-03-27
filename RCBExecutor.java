@@ -16,6 +16,12 @@ public class RCBExecutor {
         rcb.addPlayer("Reece Topley");
         rcb.addPlayer("Suyash Prabhudessai");
         rcb.addPlayer("Karn Sharma");
-        rcb.getPlayers();
+        rcb.getPlayerDetails();
+        int index = 0;
+        String playerByIndex = rcb.getPlayerByIndex(index);
+        System.out.println("Player at index " + index + " is: " + playerByIndex);
+        String playerName = "Glenn Maxwell";
+        int playerIndex = rcb.getIndexByPlayer(playerName);
+        System.out.println("Index of " + playerName + " is: " + playerIndex);
     }
 }

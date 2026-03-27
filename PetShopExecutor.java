@@ -21,6 +21,12 @@ public class PetShopExecutor {
         petShop.addAccessory("Bird Cage");
         petShop.addAccessory("Pet Stroller");
         petShop.addAccessory("ID Tag");
-        petShop.getAccessories();
+        petShop.getAccessoryDetails();
+        int index = 6;
+        String accessoryByIndex = petShop.getAccessoryByIndex(index);
+        System.out.println("Accessory at index " + index + " is: " + accessoryByIndex);
+        String accessoryName = "Nail Clipper";
+        int accessoryIndex = petShop.getIndexByAccessory(accessoryName);
+        System.out.println("Index of " + accessoryName + " is: " + accessoryIndex);
     }
 }

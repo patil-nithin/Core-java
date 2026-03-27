@@ -19,6 +19,12 @@ public class NetflixExecutor {
         netflix.addWebSeries("Four More Shots");
         netflix.addWebSeries("Hostages");
         netflix.addWebSeries("Typewriter");
-        netflix.getWebSeries();
+        netflix.getWebSeriesDetails();
+        int index = 2;
+        String seriesByIndex = netflix.getWebSeriesByIndex(index);
+        System.out.println("Web series at index " + index + " is: " + seriesByIndex);
+        String seriesName = "Panchayat";
+        int seriesIndex = netflix.getIndexByWebSeries(seriesName);
+        System.out.println("Index of " + seriesName + " is: " + seriesIndex);
     }
 }

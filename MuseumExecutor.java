@@ -17,6 +17,12 @@ public class MuseumExecutor {
         museum.addMonument("Gateway of India");
         museum.addMonument("Fatehpur Sikri");
         museum.addMonument("Sanchi Stupa");
-        museum.getMonuments();
+        museum.getMonumentDetails();
+        int index = 3;
+        String monumentByIndex = museum.getMonumentByIndex(index);
+        System.out.println("Monument at index " + index + " is: " + monumentByIndex);
+        String monumentName = "Charminar";
+        int monumentIndex = museum.getIndexByMonument(monumentName);
+        System.out.println("Index of " + monumentName + " is: " + monumentIndex);
     }
 }

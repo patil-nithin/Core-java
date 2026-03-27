@@ -21,6 +21,12 @@ public class WonderlaExecutor {
         wonderla.addWaterGame("Cliff Jump");
         wonderla.addWaterGame("Rapid River");
         wonderla.addWaterGame("Super Flume");
-        wonderla.getWaterGames();
+        wonderla.getWaterGameDetails();
+        int index = 5;
+        String gameByIndex = wonderla.getWaterGameByIndex(index);
+        System.out.println("Water game at index " + index + " is: " + gameByIndex);
+        String gameName = "Boomerang";
+        int gameIndex = wonderla.getIndexByWaterGame(gameName);
+        System.out.println("Index of " + gameName + " is: " + gameIndex);
     }
 }

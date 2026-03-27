@@ -16,6 +16,12 @@ public class PlayListExecutor {
         playList.addSong("Meri Aashiqui");
         playList.addSong("Dilbaro");
         playList.addSong("Judaai");
-        playList.getSongs();
+        playList.getSongDetails();
+        int index = 3;
+        String songByIndex = playList.getSongByIndex(index);
+        System.out.println("Song at index " + index + " is: " + songByIndex);
+        String songName = "Hawayein";
+        int songIndex = playList.getIndexBySong(songName);
+        System.out.println("Index of " + songName + " is: " + songIndex);
     }
 }

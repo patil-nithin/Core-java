@@ -10,6 +10,12 @@ public class GovernmentExecutor {
         government.addExam("GATE");
         government.addExam("CAT");
         government.addExam("NDA");
-        government.getExams();
+        government.getExamDetails();
+        int index = 4;
+        String examByIndex = government.getExamByIndex(index);
+        System.out.println("Exam at index " + index + " is: " + examByIndex);
+        String examName = "GATE";
+        int examIndex = government.getIndexByExam(examName);
+        System.out.println("Index of " + examName + " is: " + examIndex);
     }
 }

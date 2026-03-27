@@ -10,6 +10,12 @@ public class StateExecutor {
         state.addHighway("NH 30 - Sitapur to Ibrahimpur");
         state.addHighway("NH 66 - Panvel to Kanyakumari");
         state.addHighway("NH 75 - Gwalior to Jharkhand");
-        state.getHighways();
+        state.getHighwayDetails();
+        int index = 1;
+        String highwayByIndex = state.getHighwayByIndex(index);
+        System.out.println("Highway at index " + index + " is: " + highwayByIndex);
+        String highwayName = "NH 27 - East West Corridor";
+        int highwayIndex = state.getIndexByHighway(highwayName);
+        System.out.println("Index of " + highwayName + " is: " + highwayIndex);
     }
 }

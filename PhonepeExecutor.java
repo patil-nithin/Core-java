@@ -28,6 +28,12 @@ public class PhonepeExecutor {
         phonepe.addInsurance("Student Insurance");
         phonepe.addInsurance("Senior Citizen Insurance");
         phonepe.addInsurance("Maternity Insurance");
-        phonepe.getInsurance();
+        phonepe.getInsuranceDetails();
+        int index = 4;
+        String insuranceByIndex = phonepe.getInsuranceByIndex(index);
+        System.out.println("Insurance at index " + index + " is: " + insuranceByIndex);
+        String insuranceName = "Travel Insurance";
+        int insuranceIndex = phonepe.getIndexByInsurance(insuranceName);
+        System.out.println("Index of " + insuranceName + " is: " + insuranceIndex);
     }
 }

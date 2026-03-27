@@ -18,6 +18,12 @@ public class TravelAgencyExecutor {
         travelAgency.addPlace("Zurich");
         travelAgency.addPlace("Toronto");
         travelAgency.addPlace("Cape Town");
-        travelAgency.getPlaces();
+        travelAgency.getPlaceDetails();
+        int index = 3;
+        String placeByIndex = travelAgency.getPlaceByIndex(index);
+        System.out.println("Place at index " + index + " is: " + placeByIndex);
+        String placeName = "Tokyo";
+        int placeIndex = travelAgency.getIndexByPlace(placeName);
+        System.out.println("Index of " + placeName + " is: " + placeIndex);
     }
 }

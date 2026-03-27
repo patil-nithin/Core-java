@@ -21,6 +21,12 @@ public class ElectricalShopExecutor {
         electricalShop.addAppliance("Smart Plug");
         electricalShop.addAppliance("Motion Sensor");
         electricalShop.addAppliance("Timer Switch");
-        electricalShop.getAppliances();
+        electricalShop.getApplianceDetails();
+        int index = 2;
+        String applianceByIndex = electricalShop.getApplianceByIndex(index);
+        System.out.println("Appliance at index " + index + " is: " + applianceByIndex);
+        String applianceName = "Inverter";
+        int applianceIndex = electricalShop.getIndexByAppliance(applianceName);
+        System.out.println("Index of " + applianceName + " is: " + applianceIndex);
     }
 }

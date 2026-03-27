@@ -31,6 +31,12 @@ public class AirAsiaExecutor {
         airAsia.addPassenger("Rekha Bansal");
         airAsia.addPassenger("Santosh Mishra");
         airAsia.addPassenger("Padma Venkat");
-        airAsia.getPassengers();
+        airAsia.getPassengerDetails();
+        int index = 5;
+        String passengerByIndex = airAsia.getPassengerByIndex(index);
+        System.out.println("Passenger at index " + index + " is: " + passengerByIndex);
+        String passengerName = "Kiran Rao";
+        int passengerIndex = airAsia.getIndexByPassenger(passengerName);
+        System.out.println("Index of " + passengerName + " is: " + passengerIndex);
     }
 }

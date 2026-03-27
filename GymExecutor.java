@@ -17,6 +17,12 @@ public class GymExecutor {
         gym.addEquipment("Foam Roller");
         gym.addEquipment("Ab Roller");
         gym.addEquipment("Spin Bike");
-        gym.getEquipments();
+        gym.getEquipmentDetails();
+        int index = 1;
+        String equipmentByIndex = gym.getEquipmentByIndex(index);
+        System.out.println("Equipment at index " + index + " is: " + equipmentByIndex);
+        String equipmentName = "Kettlebell";
+        int equipmentIndex = gym.getIndexByEquipment(equipmentName);
+        System.out.println("Index of " + equipmentName + " is: " + equipmentIndex);
     }
 }
